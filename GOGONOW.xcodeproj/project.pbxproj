@@ -99,12 +99,9 @@
 		3507B5492722CD0900CF26AC /* GOGONOW */ = {
 			isa = PBXGroup;
 			children = (
-				3507B54A2722CD0900CF26AC /* AppDelegate.swift */,
-				3507B54C2722CD0900CF26AC /* SceneDelegate.swift */,
-				3507B54E2722CD0900CF26AC /* ViewController.swift */,
-				3507B5502722CD0900CF26AC /* Main.storyboard */,
-				3507B5532722CD1300CF26AC /* Assets.xcassets */,
-				3507B5552722CD1300CF26AC /* LaunchScreen.storyboard */,
+				3507B58C2722FF7900CF26AC /* Model */,
+				3507B5832722FECD00CF26AC /* View */,
+				3507B5862722FEE700CF26AC /* Control */,
 				3507B5582722CD1300CF26AC /* Info.plist */,
 			);
 			path = GOGONOW;
@@ -125,6 +122,33 @@
 				3507B56D2722CD1300CF26AC /* GOGONOWUITestsLaunchTests.swift */,
 			);
 			path = GOGONOWUITests;
+			sourceTree = "<group>";
+		};
+		3507B5832722FECD00CF26AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3507B5552722CD1300CF26AC /* LaunchScreen.storyboard */,
+				3507B5502722CD0900CF26AC /* Main.storyboard */,
+				3507B5532722CD1300CF26AC /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3507B5862722FEE700CF26AC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				3507B54C2722CD0900CF26AC /* SceneDelegate.swift */,
+				3507B54A2722CD0900CF26AC /* AppDelegate.swift */,
+				3507B54E2722CD0900CF26AC /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		3507B58C2722FF7900CF26AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
