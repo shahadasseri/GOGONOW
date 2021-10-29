@@ -3,7 +3,7 @@
 //  GOGONOW
 //
 //  Created by shahad nasser asseri on 16/03/1443 AH.
-//
+//used for less than 13 
 
 import UIKit
 

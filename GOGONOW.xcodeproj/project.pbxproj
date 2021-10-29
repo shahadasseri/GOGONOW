@@ -16,6 +16,8 @@
 		3507B5622722CD1300CF26AC /* GOGONOWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3507B5612722CD1300CF26AC /* GOGONOWTests.swift */; };
 		3507B56C2722CD1300CF26AC /* GOGONOWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3507B56B2722CD1300CF26AC /* GOGONOWUITests.swift */; };
 		3507B56E2722CD1300CF26AC /* GOGONOWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3507B56D2722CD1300CF26AC /* GOGONOWUITestsLaunchTests.swift */; };
+		3507B5922723250300CF26AC /* HomeCellControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3507B5912723250300CF26AC /* HomeCellControler.swift */; };
+		352838C5272C4E14003B3615 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352838C4272C4E14003B3615 /* Categories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3507B5672722CD1300CF26AC /* GOGONOWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOGONOWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3507B56B2722CD1300CF26AC /* GOGONOWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOGONOWUITests.swift; sourceTree = "<group>"; };
 		3507B56D2722CD1300CF26AC /* GOGONOWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOGONOWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3507B5912723250300CF26AC /* HomeCellControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellControler.swift; sourceTree = "<group>"; };
+		352838C4272C4E14003B3615 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				3507B54C2722CD0900CF26AC /* SceneDelegate.swift */,
 				3507B54A2722CD0900CF26AC /* AppDelegate.swift */,
 				3507B54E2722CD0900CF26AC /* ViewController.swift */,
+				3507B5912723250300CF26AC /* HomeCellControler.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 		3507B58C2722FF7900CF26AC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				352838C4272C4E14003B3615 /* Categories.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -284,7 +290,9 @@
 			files = (
 				3507B54F2722CD0900CF26AC /* ViewController.swift in Sources */,
 				3507B54B2722CD0900CF26AC /* AppDelegate.swift in Sources */,
+				352838C5272C4E14003B3615 /* Categories.swift in Sources */,
 				3507B54D2722CD0900CF26AC /* SceneDelegate.swift in Sources */,
+				3507B5922723250300CF26AC /* HomeCellControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

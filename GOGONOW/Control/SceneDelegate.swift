@@ -1,9 +1,4 @@
-//
-//  SceneDelegate.swift
-//  GOGONOW
-//
-//  Created by shahad nasser asseri on 16/03/1443 AH.
-//
+//used for ios 13 and more
 
 import UIKit
 

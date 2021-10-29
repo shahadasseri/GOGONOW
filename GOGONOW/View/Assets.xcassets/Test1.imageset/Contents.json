@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Test1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Test1-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Test1-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
